@@ -4,9 +4,8 @@
 
 Instruction:
 1. Download and extract the repository.
-2. Exit the store.html, find this line: <input type="hidden" class="form-control" id="tokenInput" name="token" value="PUT_YOUR_KLCIS_API_KEY_HERE">
-3. Replace the value with your KLCiS API Key
-4. Find these lines:
+2. Exit the store.html, find this line: PUT_YOUR_KLCIS_API_KEY_HERE and replace the value with your KLCiS API Key
+3. Find these code:
 
              <select id="amountDropdown" name="amount" class="form-select text-success text-lg btn-block">
                     <!--PAKI-EDIT NG VALUE SAKA DESCRIPTION BASE SA VOUCHER AMOUNT NA NAKA-UPLOAD SA IYONG KLCIS ACCOUNT -->
@@ -20,7 +19,7 @@ Instruction:
                             <option value="300">₱300.00 - 30 DAYS INTERNET</option>
                       </select>
 
-5. Replace the value and description according to the price of the voucher you hav uploaded in the KLCiS Admin Dashboard
+6. Replace the value and description according to the price of the voucher you hav uploaded in the KLCiS Admin Dashboard
 
 Application:
 
